@@ -1,0 +1,80 @@
+{
+    "persons": [
+        {
+            "name": "Tim Berners-Lee",
+            "birth": "08/06/1955",
+            "death": "-",
+            "wiki": "Sir Tim Berners-Lee es un científico de la computación británico conocido como el inventor de la World Wide Web. Nacido en 1955 en Londres, Berners-Lee desarrolló el primer sistema de gestión de información en 1980 mientras trabajaba en CERN, la Organización Europea para la Investigación Nuclear. En 1989, propuso el concepto de un sistema de hipertexto global, que más tarde se convirtió en la World Wide Web. Berners-Lee también fue fundamental en la creación de estándares web como HTML, HTTP y URLs. Por sus contribuciones revolucionarias, ha recibido numerosos premios y honores, incluido el título de caballero por la Reina Isabel II del Reino Unido. Su visión y trabajo continúan influyendo profundamente en cómo la humanidad se comunica, colabora y accede a la información en la era digital.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg"
+        },
+        {
+            "name": "Isaac Newton",
+            "birth": "25/12/1642",
+            "death": "20/03/1727",
+            "wiki": "Sir Isaac Newton fue un matemático, físico y astrónomo inglés que es ampliamente reconocido como una de las figuras más influyentes en la historia de la ciencia. Sus contribuciones incluyen el desarrollo del cálculo, las leyes del movimiento y la ley de la gravitación universal. Newton revolucionó nuestra comprensión del universo y sentó las bases para la física moderna.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/3/39/GodfreyKneller-IsaacNewton-1689.jpg"
+        },
+        {
+            "name": "Albert Einstein",
+            "birth": "14/03/1879",
+            "death": "18/04/1955",
+            "wiki": "Albert Einstein fue un físico teórico alemán que desarrolló la teoría de la relatividad, uno de los pilares de la física moderna. Además de sus contribuciones a la física teórica, Einstein también fue un activista por la paz y los derechos civiles. Ganador del Premio Nobel de Física en 1921, su trabajo continúa siendo una inspiración para científicos de todo el mundo.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/d/d3/Albert_Einstein_Head.jpg"
+        }
+    ],
+    "entities": [
+        {
+            "name": "CERN",
+            "birth": "29/09/1954",
+            "death": "-",
+            "wiki": "El CERN (Organización Europea para la Investigación Nuclear) es el mayor laboratorio de física de partículas del mundo, ubicado en la frontera franco-suiza cerca de Ginebra. CERN es conocido por albergar el Gran Colisionador de Hadrones (LHC), donde se realizan experimentos para investigar la física de partículas elementales y las leyes fundamentales del universo.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8e/CERN_logo.svg/1280px-CERN_logo.svg.png",
+            "persons": ["Tim Berners-Lee"]
+        },
+        {
+            "name": "Microsoft Corporation",
+            "birth": "04/04/1975",
+            "death": "-",
+            "wiki": "Microsoft Corporation es una empresa multinacional de tecnología con sede en Redmond, Washington, Estados Unidos. Fundada por Bill Gates y Paul Allen, Microsoft es conocida por sus sistemas operativos, como Windows, y su suite de productividad, como Microsoft Office. La empresa también está involucrada en la computación en la nube, la inteligencia artificial y otras áreas de la tecnología.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/96/Microsoft_logo_%282012%29.svg/1280px-Microsoft_logo_%282012%29.svg.png",
+            "persons": ["Bill Gates", "Paul Allen"]
+        }
+    ],
+    "products": [
+        {
+            "name": "HTML",
+            "birth": "18/11/1995",
+            "death": "-",
+            "wiki": "HTML (HyperText Markup Language) es el lenguaje estándar utilizado para crear y diseñar páginas web. Desarrollado inicialmente por Tim Berners-Lee en 1990, HTML proporciona una estructura básica que define el contenido y la presentación de una página web. Utilizando etiquetas y elementos específicos, los desarrolladores web pueden organizar texto, imágenes, enlaces y otros elementos multimedia de manera jerárquica y coherente. HTML es fundamental para la comunicación en la World Wide Web, ya que permite la creación de páginas web interactivas y accesibles en todo el mundo. Con el tiempo, HTML ha evolucionado con nuevas versiones y características para adaptarse a las demandas cambiantes de la tecnología web, pero su importancia como lenguaje base para la creación de contenido en línea permanece innegable.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg",
+            "persons": ["Tim Berners-Lee"],
+            "entities": ["CERN"]
+        },
+        {
+            "name": "HTTP",
+            "birth": "01/05/1996",
+            "death": "-",
+            "wiki": "HTML (HyperText Markup Language) fue creado por Tim Berners-Lee, un científico de la computación británico, en 1991 mientras trabajaba en el CERN (Organización Europea para la Investigación Nuclear). Berners-Lee ideó HTML como una forma de compartir documentos científicos de manera fácil y accesible a través de la World Wide Web. Si bien otras personas también contribuyeron al desarrollo y la estandarización de HTML a lo largo de los años, Berners-Lee es reconocido como su creador original.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/5/5b/HTTP_logo.svg",
+            "persons": ["Tim Berners-Lee"],
+            "entities": ["CERN"]
+        },
+        {
+            "name": "Windows",
+            "birth": "20/11/1985",
+            "death": "-",
+            "wiki": "Microsoft Windows es una serie de sistemas operativos desarrollados y comercializados por Microsoft. Lanzado por primera vez en 1985, Windows se ha convertido en el sistema operativo de escritorio más utilizado en el mundo. Con numerosas versiones y actualizaciones a lo largo de los años, Windows ha sido fundamental para la informática personal y empresarial.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5e/Windows_logo_-_2012.svg/1280px-Windows_logo_-_2012.svg.png",
+            "persons": ["Bill Gates", "Paul Allen"],
+            "entities": ["Microsoft Corporation"]
+        },
+        {
+            "name": "Teoría de la Relatividad",
+            "birth": "25/11/1915",
+            "death": "-",
+            "wiki": "La teoría de la relatividad es una teoría física desarrollada por Albert Einstein en 1905 y 1915. La teoría especial de la relatividad aborda el comportamiento de los objetos en movimiento y la relación entre espacio y tiempo. La teoría general de la relatividad amplía estos conceptos para incluir la influencia de la gravedad en el espacio y el tiempo.",
+            "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Albert_Einstein_Head.jpg/1280px-Albert_Einstein_Head.jpg",
+            "persons": ["Albert Einstein"]
+        }
+    ]
+}
